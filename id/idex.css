@@ -1,0 +1,386 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.lop {
+    background-position: 50%;
+    background: #111;
+    min-height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #222;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    height: 40px;
+    border-start-end-radius: 50%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #bbb;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.sign-in {
+    color: #fff;
+    text-decoration: none;
+}
+
+.try-free {
+    background-color: #E94A35;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.content {
+    max-width: 500px;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 440px;
+    height: 200px;
+    border-start-end-radius: 30%;
+    box-shadow: 0 4px rgb(71, 71, 71);
+    margin-top: 50px;
+}
+
+.try-free:hover {
+    background-color: #d43b26;
+}
+
+.continer {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+#apout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+#apout .titel {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#apout .titel p {
+    font-size: 16px;
+    color: rgb(117, 110, 117);
+    font-weight: 600;
+}
+
+#apout .titel h2 {
+    font-size: 32px;
+    color: #111;
+    margin-bottom: 20px;
+}
+
+#apout .apout-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#apout .apout-content img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 50% 20% / 10% 40%;
+    transition: transform 827ms ease-out 141ms;
+    margin-bottom: 20px;
+}
+
+#apout .apout-content p {
+    color: rgb(12, 11, 10);
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.ptn-lorem {
+    background-color: #E94A35;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.meal-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #111111e5;
+}
+
+
+.meal-item {
+    text-align: center;
+    color: #ddcdcd;
+    flex: 0 0 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+}
+
+.meal-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: all .1s 1ms linear;
+}
+.meal-item img:hover{
+    transform:matrix(1.00,0.00,0.00,1.00,-10,-10);
+    -ms-transform:matrix(1.00,0.00,0.00,1.00,-10,-10);
+    -webkit-transform:matrix(1.00,0.00,0.00,1.00,-10,-10);
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 45%;
+}
+
+.card img {
+    width: 80%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+h1, h2, h3 {
+    color: #00ced1;
+    cursor: pointer;
+}
+
+p {
+    color: #666;
+}
+
+button {
+    background-color: #00CED1;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    transition: .5s;
+}
+button:hover{
+    transform:matrix(1.00,0.00,0.00,1.00,-11,-12);
+    -ms-transform:matrix(1.00,0.00,0.00,1.00,-11,-12);
+    -webkit-transform:matrix(1.00,0.00,0.00,1.00,-11,-12);
+    /* background-color: #d43b26; */
+}
+
+
+.bottom-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.syllabus-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.syllabus-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 15px;
+    width: 18%;
+    margin-bottom: 20px;
+}
+
+.syllabus-card img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.syllabus-card img:hover{
+    filter: blur(2px);
+-webkit-filter: blur(2px);
+
+}
+
+.syllabus-card h3 {
+    margin: 10px 0;
+}
+
+.syllabus-card p {
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    .top-section {
+        flex-direction: column;
+    }
+    
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .syllabus-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .syllabus-card {
+        width: 100%;
+    }
+}
+.footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-icons {
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .icon img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .icon:hover img {
+    transform: scale(1.1);
+  }
+  
+  .footer-links {
+    font-size: 14px;
+  }
+  
+  .footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #cccccc;
+  }
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-buttons {
+        margin-top: 10px;
+    }
+
+    .main-content {
+        text-align: center;
+    }
+
+    .content h1 {
+        font-size: 28px;
+    }
+
+    .meal-item {
+        flex: 0 0 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+
+    .card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .meal-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
